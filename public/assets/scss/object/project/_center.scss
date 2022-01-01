@@ -1,0 +1,11 @@
+.p-center__link{
+  color: #333;
+  font-size: 14px;
+ line-height: 2em;
+  padding-bottom: 10px;
+
+  &:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

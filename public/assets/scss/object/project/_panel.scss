@@ -1,0 +1,38 @@
+.p-panel{
+  width: 100%;
+
+}
+.p-panel__item{
+  width: 90%;
+  margin: 0 auto;
+}
+.p-panel__header{
+  text-align: center;
+}
+.p-panel__img{
+  height: 225px;
+  width: 100%;
+  object-fit: cover;
+}
+.p-panel__body{
+  background: rgba(200,200,200,0.3);
+  width: 100%;
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 1.5em;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+
+  a {
+    color: #274466;
+  }
+
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.p-panel__label{
+  text-align: left;
+}

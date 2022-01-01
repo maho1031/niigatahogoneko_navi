@@ -1,0 +1,41 @@
+.p-nav{
+  @extend .content-width;
+}
+.p-nav__menu{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  font-size: 11px;
+}
+.p-nav__menu-item{
+  justify-content: center;
+  align-items: center;
+  width: calc(50% - 1px);
+  padding: 20px 0;
+
+  &:nth-child(1){
+    background: #206A73;
+    margin-bottom: 1px;
+  }
+  &:nth-child(2){
+    background: #D98C5F;
+    margin-bottom: 1px;
+  }
+
+  &:nth-child(4){
+    background: #206A73;
+  }
+  &:nth-child(3){
+    background: #D98C5F;
+  }
+
+}
+.p-nav__menu-link{
+  display: block;
+  text-align: center;
+  font-weight: bolder;
+
+  &:hover{
+    text-decoration: underline;
+  }
+}

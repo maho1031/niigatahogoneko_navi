@@ -1,0 +1,36 @@
+.l-header {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  height: 80px;
+  display: flex;
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+}
+.triggered{
+  transition: .3s;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 10px 0 25px -10px rgba(0,0,0,0.5);
+}
+
+.p-header{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+
+  &__logo{
+    font-size: 28px;
+    font-family: $font-family_default;
+    color: #206A73;
+    text-align: center;
+    line-height: 1.2em;
+
+  }
+}
+

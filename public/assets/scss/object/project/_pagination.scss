@@ -1,0 +1,28 @@
+.pagination{
+    // width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.pagination li {
+    background: #9FB6BF;
+    margin-left: 10px;
+    transition: opacity 0.4s;
+    border-radius: 5px;
+
+    &:last-child{
+        margin-right: 10px;
+    }
+}
+.pagination a {
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 10px;
+    font-weight: bold;
+   
+}
+.pagination li.active {
+    background: #274466;
+}

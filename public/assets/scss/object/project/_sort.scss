@@ -1,0 +1,21 @@
+.p-sort{
+  width: 100%;
+  // display: block;
+  // text-align: right;
+  // margin-right: 10px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  // text-align: center;
+  
+}
+.p-sort__inner{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.p-sort__label{
+//  width: 100%;
+}

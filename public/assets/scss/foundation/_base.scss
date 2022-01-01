@@ -1,0 +1,33 @@
+html, body{
+  width: 100%;
+  text-size-adjust: 100%;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  font-family: $font-family_default;
+
+}
+p, a {
+  -webkit-font-smoothing: antialiased;
+}
+
+a{
+  text-decoration: none;
+  transition: .3s;
+  color: white;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.content-width{
+  width: 100%;
+  margin: 0 auto;
+  max-width: $contentMaxWidth;
+}
+
+//.flex{
+//  display: flex;
+//  flex-direction: column;
+//}

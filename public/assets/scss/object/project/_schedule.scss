@@ -1,0 +1,31 @@
+.p-schedule{
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.p-schedule__item{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+
+}
+.p-schedule__link{
+  margin-left: 15px;
+  color: #333;
+
+
+  &:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+.p-schedule__link-last{
+  margin-left: 0;
+  color: #333;
+
+
+  &:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

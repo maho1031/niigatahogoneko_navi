@@ -1,0 +1,35 @@
+.p-hero{
+  @extend .content-width;
+  overflow: hidden;
+  padding-top: 60px;
+
+  &__title{
+    position: absolute;
+    top: 19%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 28px;
+    z-index: 2;
+    box-sizing: border-box;
+    line-height: 1.2em;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
+  }
+
+  &__img{
+    height: 400px;
+    padding-top: 20px;
+
+    & > img{
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+      object-fit: cover;
+
+    }
+  }
+}
+
+.p-hero__title-br {
+  display: block;
+}

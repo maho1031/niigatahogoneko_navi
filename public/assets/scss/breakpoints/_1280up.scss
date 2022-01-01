@@ -1,0 +1,19 @@
+.p-hero__title{
+  text-align: center;
+  top: 17%;
+  left: 50%;
+  font-size: 35px;
+}
+.p-main{
+  @include content-width();
+}
+.p-sort{
+  width: calc(100% - 220px);
+}
+.p-panel {
+  width: calc(100% - 220px);
+  max-width: 840px;
+  text-align: right;
+  margin: 0 auto;
+}
+

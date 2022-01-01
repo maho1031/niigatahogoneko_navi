@@ -1,0 +1,50 @@
+.p-hero__title {
+  top: 17%;
+  left: 47%;
+}
+.p-hero__title-br {
+  display: none;
+}
+.p-nav__menu{
+  display: flex;
+}
+.p-news{
+  width: 70%;
+}
+.p-sort{
+  width: calc(100% - 100px);
+}
+.l-main{
+  width: calc(100% - 226px);
+  text-align: right;
+  margin: 0 0 0 auto;
+}
+.p-panel {
+  max-width: 840px;
+  text-align: right;
+  margin: 0 auto;
+}
+.p-panel__body{
+  text-align: left;
+}
+.p-nav-mypage{
+  width: 90%;
+  margin: 0 auto;
+
+  & > .p-nav__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+    & > .p-nav__menu-item {
+      width: 192px;
+
+    }
+  }
+}
+.pagination{
+  width: calc(100% - 226px);
+  text-align: right;
+  margin: 0 0 0 auto;
+}
